@@ -55,7 +55,7 @@ function App() {
       setSeed(isNaN(numSeed) ? urlSeed : numSeed);
     } else {
       setSeed(Date.now());
-    }
+    } // Test Git
   }, []);
 
   // 生成地圖
